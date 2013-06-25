@@ -3,8 +3,8 @@ Contributors: Matthias Reuter
 Donate link: 
 Tags: paymill, creditcard, elv, payment, woocommerce, paybutton, ecommerce
 Requires at least: 3.5
-Tested up to: 3.5.1
-Stable tag: 1.1
+Tested up to: 3.5.2
+Stable tag: 1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -54,7 +54,7 @@ No. Paymill allows payments without annoying your customers creating an account.
 
 = Does this plugin redirects the users to Paymill for payment? =
 
-No. Paymill allows payment directly though your website without any extra redirects etc.
+No. Paymill allows payment directly through your website without any extra redirects etc.
 
 = Does this plugin supports 3D secure? =
 
@@ -70,10 +70,13 @@ ELV is a German banking service and stands for "Elektronisches Lastschriftverfah
 
 == Screenshots ==
 
-1. http://storage.ipbwi.com/paymill/admincp-general.png
-2. http://storage.ipbwi.com/paymill/payment-form.png
+1. /assets/admincp-general.png
+2. /assets/payment-form.png
 
 == Changelog ==
+
+= 1.2 =
+Shopplugin support added
 
 = 1.1 =
 Pay Button added
@@ -81,9 +84,10 @@ Pay Button added
 = 1.0 =
 WooCommerce support added
 
-== Upgrade notice ==
+== Upgrade Notice ==
 
-
+= 1.2 =
+Shopplugin support added
 
 == Missing a feature? ==
 
