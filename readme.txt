@@ -15,10 +15,11 @@ With Paymill you are able to provide credit card based payments for your custome
 This plugin currently allows:
 
 * Payment Gateway for WooCommerce
+* Payment Gateway for ShopPlugin
 * Pay Button
 
 Features in Development:
-* Payment Gateway for ShopPlugin
+
 * Payment Gateway for Magic Members
 
 == Installation ==
@@ -70,10 +71,17 @@ ELV is a German banking service and stands for "Elektronisches Lastschriftverfah
 
 == Screenshots ==
 
-1. /assets/admincp-general.png
-2. /assets/payment-form.png
+1. Common Settings
+2. Payment Form
 
 == Changelog ==
+
+= 1.2.1 =
+
+* several PHP notices fixed
+* incompatibility with Yootheme Cloud Theme (and maybe other themes) fixed
+* unsaved Settings for Payment Gateway in WooCommerce fixed
+* Payment Type Logo Selection added
 
 = 1.2 =
 Shopplugin support added
@@ -85,6 +93,9 @@ Pay Button added
 WooCommerce support added
 
 == Upgrade Notice ==
+
+= 1.2.1 =
+Several Bugs fixed and Payment Type Logo Selection added
 
 = 1.2 =
 Shopplugin support added
