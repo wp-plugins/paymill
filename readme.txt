@@ -41,9 +41,9 @@ This plugin is for free and licensed to GPL. It's open source following the GPL 
 
 = Does this plugin calls to another server? =
 Yes. As Pamill is a payment service provider, it is absolutely required to call home to make sure that the payments are valid. We are talking about three different reasons for calling home:
-1. Paymill Javascript Bridge makes sure that payment data is correct and creates a payment token delivered to your server after checkout. This avoids delivering payment data to your server, what is -in most cases- absolutely prohibited by all common credit card providers.
-2. Paymill PHP Bridge finishes the order and delivers the generated token to the Paymill server.
-3. (planned) For security purposes we will implement a feature which delivers WordPress version number and Paymill Plugin version number upon payment process. This will give us the ability to warn paymill merchants who are using a very outdated WordPress version or about known security holes in specific version when still using them.
+* 1. Paymill Javascript Bridge makes sure that payment data is correct and creates a payment token delivered to your server after checkout. This avoids delivering payment data to your server, what is -in most cases- absolutely prohibited by all common credit card providers.
+* 2. Paymill PHP Bridge finishes the order and delivers the generated token to the Paymill server.
+* 3. (planned) For security purposes we will implement a feature which delivers WordPress version number and Paymill Plugin version number upon payment process. This will give us the ability to warn paymill merchants who are using a very outdated WordPress version or about known security holes in specific version when still using them.
 
 = Are there any fees for payments? =
 
@@ -106,6 +106,7 @@ Please use the plugin support forum here on WordPress.org. We will add your wish
 
 = Paid Services =
 Nevertheless, feel free to hire the plugin author Matthias Reuter <info@straightvisions.com> if you need to:
-- get a customization
-- get a feature rapidly / on time
-- get a custom WordPress plugin developed to exactly fit your needs.
+
+* get a customization
+* get a feature rapidly / on time
+* get a custom WordPress plugin developed to exactly fit your needs.
