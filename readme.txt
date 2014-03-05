@@ -4,7 +4,7 @@ Donate link:
 Tags: paymill, creditcard, elv, payment, woocommerce, paybutton, ecommerce, debitcard, subscriptions
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -126,6 +126,10 @@ custom theme file on 'THEME_DIR/paymill/pay_button.php' (it will replace '/paymi
 
 == Changelog ==
 
+= 1.5.2 =
+
+* Common: "Fatal error: Call to a member function payment_complete() on a non-object" fixed
+
 = 1.5.1 =
 
 * Common: Installation Manual updated
@@ -215,6 +219,10 @@ Pay Button added
 WooCommerce support added
 
 == Upgrade Notice ==
+
+= 1.5.2 =
+
+* Common: "Fatal error: Call to a member function payment_complete() on a non-object" fixed
 
 = 1.5.1 =
 
