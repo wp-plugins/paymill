@@ -24,7 +24,8 @@
 			$this->paymill_pay_button_settings = array_merge( array(
 				'number_decimal' => '.',
 				'number_thousands' => ',',
-				'currency' => 'EUR'
+				'currency' => 'EUR',
+				'currency_format' => '%n%s'
 			), $this->paymill_pay_button_settings );
 			
 			if(isset($this->paymill_general_settings['api_key_private']) && isset($this->paymill_general_settings['api_key_public']) && $this->paymill_general_settings['api_key_private'] != '' && $this->paymill_general_settings['api_key_public'] != ''){
@@ -132,6 +133,7 @@
 				'number_decimal'	=> __('Number Format: Decimal Point', 'paymill'),
 				'number_thousands'	=> __('Number Format: Thousands Seperator', 'paymill'),
 				'currency'			=> __('Currency', 'paymill'),
+				'currency_format'	=> __('Currency Format', 'paymill'),
 				'email_outgoing'	=> __('Outgoing Email', 'paymill'),
 				'email_incoming'	=> __('Incoming Email', 'paymill'),
 				'thankyou_url'		=> __('Thank You URL', 'paymill'),
@@ -359,6 +361,7 @@
 				'surname',
 				'street',
 				'number',
+				'state',
 				'zip',
 				'city',
 				/*'email',*/
@@ -431,6 +434,7 @@
 
 			$descriptions['no_default_css']					= __('Advanced users want to fully customize the payment button. Disabling default CSS from Pay Button will make that much easier.', 'paymill');
 			$descriptions['currency']						= __('Currency, <a href="http://en.wikipedia.org/wiki/ISO_4217#Active_codes" target="_blank">ISO 4217</a> e.g. "EUR" or "GBP"', 'paymill');
+			$descriptions['currency_format']				= __('Currency Format - use the following variables: %n = number, %s = symbol.', 'paymill');
 			$descriptions['api_key_private']				= __('Insert your Paymill <strong>PRIVATE</strong> API key.', 'paymill');
 			$descriptions['api_key_public']					= __('Insert your Paymill <strong>PUBLIC</strong> API key.', 'paymill');
 			
