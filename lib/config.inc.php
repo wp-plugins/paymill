@@ -175,7 +175,6 @@
 			// shipping
 			add_settings_section( 'section_pay_button_shipping', false, array( &$this, 'section_pay_button_shipping_desc' ), $this->setting_keys['paymill_pay_button_settings'] );
 
-			//var_dump($this->paymill_pay_button_settings['flat_shipping']);
 			if(isset($this->paymill_pay_button_settings['flat_shipping'])){
 				if(isset($this->paymill_pay_button_settings['flat_shipping'][count($this->paymill_pay_button_settings['flat_shipping'])]['flat_shipping_country']) && strlen($this->paymill_pay_button_settings['flat_shipping'][count($this->paymill_pay_button_settings['flat_shipping'])]['flat_shipping_country']) > 0){
 					$shipping = count($this->paymill_pay_button_settings['flat_shipping'])+5;
