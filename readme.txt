@@ -1,7 +1,7 @@
 === PAYMILL for WordPress ===
 Contributors: Matthias Reuter
 Donate link: 
-Tags: paymill, creditcard, elv, payment, woocommerce, paybutton, shopp, shopplugin, marketpress, magic members, magicmembers, mgm, ecommerce, debitcard, subscriptions
+Tags: paymill, creditcard, elv, sepa, payment, woocommerce, paybutton, shopp, shopplugin, marketpress, magic members, magicmembers, mgm, cart66, ecommerce, debitcard, subscriptions
 Requires at least: 4.0
 Tested up to: 4.0
 Stable tag: 1.8.0
