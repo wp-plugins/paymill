@@ -152,9 +152,12 @@ Subscriptions fee cannot be changed, even through coupons. Please be aware that 
 
 == Changelog ==
 
-= 1.9.1 =
+= 1.10.0 =
 
 * WooCommerce: Error Management on Checkout fixed
+* WooCommerce: Subscription Handling reviewed and optimized
+* Common: Support for PCI DSS 3.0 (iframe-based credit card form)
+* WooCommerce: Several improvements and bugfixes
 
 = 1.9.0 =
 
